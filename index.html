@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MockeX Proxy Dashboard</title>
+<style>
+body { font-family: Arial; background:#111; color:#0f0; text-align:center; padding:50px; }
+button { padding:10px 20px; margin:10px; cursor:pointer; }
+#ipPortBox { margin:20px; font-size:1.2em; }
+input { padding:5px; width:200px; }
+</style>
+</head>
+<body>
+<h1>MockeX Proxy Dashboard</h1>
+
+<button id="activateBtn">Activate Proxy</button>
+<div id="ipPortBox"></div>
+
+<h2>Save Your UID</h2>
+<input type="text" id="uidInput" placeholder="Enter UID e.g. 12484796465">
+<button id="saveUidBtn">Save UID</button>
+
+<h2>Login Simulation</h2>
+<input type="text" id="loginUid" placeholder="Enter UID to login">
+<button id="loginBtn">Login</button>
+
+<div id="loginResult"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
